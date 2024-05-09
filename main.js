@@ -21,8 +21,8 @@ const controls = new OrbitControls(camera, renderer.domElement);
 controls.enableDamping = true;
 
 // Texture loader
-const loader = new THREE.TextureLoader();
-const starTexture = loader.load('star2.png'); // Replace 'star.png' with your star texture path
+// const loader = new THREE.TextureLoader();
+// const starTexture = loader.load('star2.png'); // Replace 'star.png' with your star texture path
 
 let points = null;
 function cleanupScene() {
