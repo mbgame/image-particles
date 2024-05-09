@@ -82,12 +82,12 @@ function loadImage(imageSrc) {
     
         const material = new THREE.PointsMaterial({
             size: 0.1,
-            map: starTexture,
+            // map: starTexture,
             vertexColors: true,
-            blending: THREE.AdditiveBlending,
-            depthWrite: false,
-            transparent: true,
-            alphaTest: 0.5
+            // blending: THREE.AdditiveBlending,
+            // depthWrite: false,
+            // transparent: true,
+            // alphaTest: 0.5
         });
     
         points = new THREE.Points(geometry, material);
