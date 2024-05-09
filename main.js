@@ -81,7 +81,7 @@ function loadImage(imageSrc) {
         geometry.setAttribute('color', new THREE.Float32BufferAttribute(colors, 3));
     
         const material = new THREE.PointsMaterial({
-            size: 2,
+            size: 0.1,
             map: starTexture,
             vertexColors: true,
             blending: THREE.AdditiveBlending,
